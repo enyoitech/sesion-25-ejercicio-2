@@ -95,7 +95,7 @@ function verificar (){
 function verificandoPalindromo(data){
   
   /**
-   * utilizaremos metodo .replace()se encarga en eliminar los 
+   * utilizaremos metodo .replace() para reemplazar los 
    * espacios ( ) que puedan existir en una frase, este metodo recibe 
    * 2 argumentos el primero es el valor que queremos remplazar y el segundo
    * el valor por el cual lo queremos reemplazar en este caso usaremos una expresion
