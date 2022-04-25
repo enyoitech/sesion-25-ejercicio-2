@@ -16,13 +16,9 @@ document
      *al cargar la pagina evitando que se envie el formulario vacio.
      */
     event.preventDefault();
-<<<<<<< HEAD
     // hacemos el llamado a nuestra funcion verificar()
     verificar();
-=======
-    // hacemos el llamado a nuestra funcion login()
-    login();
->>>>>>> 5b09107bbf143cd7173750b5d946ca6340b2c255
+
 });
 
 
@@ -44,13 +40,8 @@ function verificar (){
       let nodoErrorMsn = document.getElementById("errorMsn");
 
       /**
-<<<<<<< HEAD
-       * accedemos a la propiedad .value de cada nodo la cual guarda el valor en texto (string)
-       * ingresado por el usuario y lo guaramos en constantes
-=======
        * accedemos a la propiedad (.value) de cada nodo la cual guarda el valor en texto (string)
-       * ingresado por elusuario y lo guaramos en constantes
->>>>>>> 5b09107bbf143cd7173750b5d946ca6340b2c255
+       * ingresado por el usuario y lo guaramos en constantes
        */
       const data = nodoData.value;
 
@@ -85,13 +76,8 @@ function verificar (){
      */
     if (resp) {
     /**
-<<<<<<< HEAD
      *  utilizaremos  nodoResultadoVerficacion accediendo a su propiedad '.innerHTML'
      * y asignaremos alli un mensaje indicando que si es un palindromo.
-=======
-     *  utilizaremos  nodoResultadoLogin accediendo a su propiedad '.innerHTML'
-     * y asignaremos alli un mensaje de exito.
->>>>>>> 5b09107bbf143cd7173750b5d946ca6340b2c255
      */
      nodoResultadoVerficacion.innerHTML = 'Verificacion <strong>exitosa</strong> frase/palabra si es un<strong> Paolindromo</strong>';
       return;
